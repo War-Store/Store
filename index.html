@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>War - قريباً</title>
+  <title>War</title>
 
   <!-- أيقونة الموقع -->
   <link rel="icon" type="image/png" href="1.png" />
@@ -43,6 +43,14 @@
       transform: translateY(30px);
       opacity: 0;
       border: 2px solid #0a47a7;
+    }
+
+    .container img.logo {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
     }
 
     .container h1 {
@@ -105,8 +113,11 @@
   </style>
 </head>
 <body>
-  <div class="container" role="main" aria-label="قريبا">
-    <h1>قريباً</h1>
+  <div class="container" role="main" aria-label="صفحة قريباً">
+    <!-- صورة صغيرة فوق العنوان -->
+    <img src="1.png" alt="Logo" class="logo" />
+    
+    <h1>قريبا</h1>
     <p>المتجر الإلكتروني قيد التحضير ليقدم لكم أفضل تجربة تسوق.</p>
     <a href="https://discord.gg/BUeavtHQSH" target="_blank" rel="noopener noreferrer" class="discord-btn" aria-label="انضم إلى ديسكورد">
       انضم إلى ديسكورد
